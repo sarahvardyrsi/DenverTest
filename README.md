@@ -149,7 +149,7 @@ You're project will fail the deployment though because we need to do a couple mo
 
 ![Picture of CodeStar with build](https://awsmeetupgroupreadmeimages.s3.amazonaws.com/ServerlessClassImages/Screen+Shot+2019-12-10+at+5.54.49+PM.png)
 
-First what we can do is update the AccountID in the repo. Unfortunately CloudFormation doesn't support adding AccountIds or Regions in Swagger definitions. So we have to hard code it. If you go into the "Swagger" folder you'll see two files. This is where we have defined our APIs. Go in both files and search for `<YOUR ACCOUNT ID>`. We need to replace all of those with your Account ID. So we'll have to go back into the console grab the account ID and paste it in. 
+First what we can do is update the AccountID in the repo. Unfortunately CloudFormation doesn't support adding AccountIds or Regions in Swagger definitions. So we have to hard code it. If you go into the "Swagger" folder you'll see two files. This is where we have defined our APIs. Go in both files and search for `325411838786`. We need to replace all of those with your Account ID. So we'll have to go back into the console grab the account ID and paste it in. 
 
 ![Picture of Swagger](https://awsmeetupgroupreadmeimages.s3.amazonaws.com/ServerlessClassImages/Screen+Shot+2019-12-10+at+5.56.23+PM.png)
 
